@@ -170,6 +170,7 @@ MarkdownImages: Show Remote Images
 игнорирование слов: C:\Users\sysop\AppData\Roaming\Sublime Text\Packages\User\Preferences.sublime-settings
 
 ````json
+{
 "word_wrap": false,
   "index_files": true,
   "dictionary": "Packages/russian_english.dic",
