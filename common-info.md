@@ -35,7 +35,7 @@ style="float: right;")
 8. нажать push
 9. в диалоге открывшемся диалоге - "Force push with lease"
 
-[пример GitExtensions-squash-A.gif](images/GitExtensions-squash-A.gif)
+![пример GitExtensions-squash-A.gif](images/GitExtensions-squash-A.gif)
 
 ## установленные пакеты
 
