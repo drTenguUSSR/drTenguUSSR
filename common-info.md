@@ -140,9 +140,6 @@ markdownlint --disable MD033 -- README.md
 
 [https://copyprogramming.com/howto/set-table-column-width-via-markdown](https://copyprogramming.com/howto/set-table-column-width-via-markdown)
 
-info:
-Preferences -> Package Control -> List Packages
-
 ## Markdown Images
 
 [https://github.com/xsleonard/sublime-MarkdownImages](https://github.com/xsleonard/sublime-MarkdownImages)
