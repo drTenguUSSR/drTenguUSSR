@@ -44,7 +44,6 @@ Preferences -> Package Control -> List Packages
 ## Markdown HTML Preview
 
 [Markdown HTML Preview https://github.com/zeyon/MarkdownHtmlPreview](https://github.com/zeyon/MarkdownHtmlPreview)
-[https://github.com/zeyon/MarkdownHtmlPreview](https://github.com/zeyon/MarkdownHtmlPreview)
 
 нажать ctrl+shift+m
 
