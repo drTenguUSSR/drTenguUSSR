@@ -15,7 +15,7 @@ TengedSedsvcEmu пет-проект реализующий интерфейс С
 ## сопутствующие проекты (отладочные)
 
 - проект для отладки gitHub-markDown проблем
-и публицации на gitHub pages
+и публикации на gitHub pages
 [test4](../../../test4)
 
 ## полезная информация
@@ -25,3 +25,5 @@ TengedSedsvcEmu пет-проект реализующий интерфейс С
 [sublime информация cookbook-sublime.md](cookbook-sublime.md)
 
 [git информация cookbook-git.md](cookbook-git.md)
+
+[github информация cookbook-gitHub.md]
