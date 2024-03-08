@@ -1,4 +1,4 @@
-# общая информация (рецепты)
+# общая информация MarkDowm
 
 ## markDown ограничения
 
@@ -18,28 +18,13 @@ style="float: right;")
 <plaintext>
 ````
 
+### preformatted text
+
 в рамках preformated text не работают выделения (*)
 
+### проблемы в HTML-таблицах
+
 в рамках таблицы не работают выделения ни (\*) ни тегом (b)
-
-## squash коммитов (GitExtensions)
-
-1. выбрать коммит до которого squash
-2. в контекстном меню выбрать "rebase current brunch on/Selected commit interactively..."
-3. в диалоге "rebase current brunch interactively" подтвердить
-4. для всех коммитов кроме верхнего поставить вместо "pick" "s"
-5. нажать "сохранить" (на панели) и "закрыть" (window)
-6. в открывшемся диалоге удалить или закоменировать через "#" коментарии
-  и написать новый
-7. нажать "сохранить" (на панели) и "закрыть" (window)
-8. нажать push
-9. в диалоге открывшемся диалоге - "Force push with lease"
-
-![пример GitExtensions-squash-A.gif](images/GitExtensions-squash-A.gif)
-
-## установленные пакеты
-
-Preferences -> Package Control -> List Packages
 
 ## Markdown HTML Preview
 
@@ -47,9 +32,12 @@ Preferences -> Package Control -> List Packages
 
 нажать ctrl+shift+m
 
-## MarkdownEditing
+особенности:
 
-[репо MarkdownEditing https://sublimetext-markdown.github.io/MarkdownEditing/](https://sublimetext-markdown.github.io/MarkdownEditing/)
+- некорректно отображает, что стили работают (на самом деле в GitHub нет)
+
+- картинки, заданные локальными относительными путями локально не
+отображаются (на GitHub проблемы нет)
 
 ## Sublime Text Markdownlint
 
@@ -93,7 +81,13 @@ Usage: markdownlint [options] <files|directories|globs>
 
 подробности [https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md](https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md)
 
-### MD040/fenced-code-language
+особенности:
+
+- через плагин не отображает подробностей ошибки. при запуске из консоли - все отображается
+
+### список языков, задаваемых для preformatted text через 4 гровера
+
+markdownlint выдает ссылку на MD040/fenced-code-language
 
 [список языков https://gitlab.com/gitlab-org/gitlab/-/issues/32881](https://gitlab.com/gitlab-org/gitlab/-/issues/32881)
 
@@ -128,7 +122,7 @@ TypeScript: Replace ts with this.
 xml
 ````
 
-### включение HTML
+### включение HTML (отключение провакри правила, его запрещающего)
 
 [https://github.com/updownpress/markdown-lint/blob/master/rules/033-no-inline-html.md](https://github.com/updownpress/markdown-lint/blob/master/rules/033-no-inline-html.md)
 
@@ -151,29 +145,4 @@ MarkdownImages: Hide Images
 MarkdownImages: Show All Images
 MarkdownImages: Show Local Images
 MarkdownImages: Show Remote Images
-````
-
-## орфография
-
-меню “View” - “Dictionary” под пунктом “Language - English” появиться пункт “russian-english”
-
-Чтобы осуществить проверку (spellcheck) на ошибки в русско-язычном тексте в
-редакторе Sublime Text, нужно выбрать в меню вышеназванный пункт -
-“View” - “Dictionary” - “russian-english”, тем самым указав редактору,
-какой - словарь использовать для проверки. А затем запустить
-проверку орфографии (spellcheck), нажав клавишу F6. Повторное нажатие клавиши
-отключает проверку орфографии.
-
-игнорирование слов: C:\Users\sysop\AppData\Roaming\Sublime Text\Packages\User\Preferences.sublime-settings
-
-````json
-{
-"word_wrap": false,
-  "index_files": true,
-  "dictionary": "Packages/russian_english.dic",
-  "ignored_words":
-  [
-    "БЭМ"
-  ],
-}
 ````

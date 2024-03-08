@@ -12,6 +12,16 @@ TengedSedsvcEmu пет-проект реализующий интерфейс С
 
 [подробности ../../../TengedSedsvcEmu](../../../TengedSedsvcEmu)
 
-## markDown информация
+## сопутствующие проекты (отладочные)
 
-[markDown информация common-info.md](common-info.md)
+- проект для отладки gitHub-markDown проблем
+и публицации на gitHub pages
+[test4](../../../test4)
+
+## полезная информация
+
+[markDown информация cookbook-markdown.md](cookbook-markdown.md)
+
+[sublime информация cookbook-sublime.md](cookbook-sublime.md)
+
+[git информация cookbook-git.md](cookbook-git.md)
