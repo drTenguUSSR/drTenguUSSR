@@ -20,3 +20,20 @@ Your site is live at https://drtenguussr.github.io/test4/
 ````
 
 (также тут настраивается свой "Custom domain", не проверено)
+
+## публикация на username.github.com без имени репозитория
+
+чтобы сайт репозитория на pages.github.io был доступен
+без указаная имени репозитория через слеш, нужно, чтобы
+имя репозитория соответствовало <логин> + "github.io"
+пример - логин drTenguUSSR соотвественно нужно создать
+(переименовать) репозиторий в "drTenguUSSR.github.io"
+и он будет доступен в браузере как
+[https://drTenguUSSR.github.io](https://drTenguUSSR.github.io)
+а [https://drtenguussr.github.com](https://drtenguussr.github.com)
+работать не будет
+, НО<br>
+если создать еще репозиторий и назвать "0471.github.io"
+то при попытке открыть
+[https://0471.github.io](https://0471.github.io)
+будет ошибка HTTP/404

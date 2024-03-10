@@ -18,7 +18,9 @@ TengedSedsvcEmu пет-проект реализующий интерфейс С
 и публикации на gitHub pages
 [test4](../../../test4)
 
-## полезная информация
+## <a id="useful-info-links" /> подборка полезной информации
+
+[общая информация cookbook-common.md](cookbook-common.md)
 
 [markDown информация cookbook-markdown.md](cookbook-markdown.md)
 
@@ -26,4 +28,4 @@ TengedSedsvcEmu пет-проект реализующий интерфейс С
 
 [git информация cookbook-git.md](cookbook-git.md)
 
-[github информация cookbook-gitHub.md]
+[github информация cookbook-gitHub.md](cookbook-gitHub.md)

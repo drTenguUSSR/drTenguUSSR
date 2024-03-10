@@ -85,7 +85,7 @@ Usage: markdownlint [options] <files|directories|globs>
 
 - через плагин не отображает подробностей ошибки. при запуске из консоли - все отображается
 
-### список языков, задаваемых для preformatted text через 4 гровера
+## Список языков, задаваемых для preformatted text через 4 гровера
 
 markdownlint выдает ссылку на MD040/fenced-code-language
 
@@ -122,7 +122,7 @@ TypeScript: Replace ts with this.
 xml
 ````
 
-### включение HTML (отключение провакри правила, его запрещающего)
+## Включение HTML (отключение проверки правила, его запрещающего)
 
 [https://github.com/updownpress/markdown-lint/blob/master/rules/033-no-inline-html.md](https://github.com/updownpress/markdown-lint/blob/master/rules/033-no-inline-html.md)
 
@@ -147,7 +147,7 @@ MarkdownImages: Show Local Images
 MarkdownImages: Show Remote Images
 ````
 
-### markdownlint. многоуровневые списки. ошибка MD007
+## markdownlint. многоуровневые списки. ошибка MD007
 
 проблема: если делать отступы 2 пробела на уровень, то
 проверка проходит нормально, НО в визуализации отступов нет
@@ -163,3 +163,20 @@ MarkdownImages: Show Remote Images
 
 полезно: завести переменную среды с указанием правильного конфига
 и все скрипты проверки ориентировать на неё
+
+## Сделать якорь и ссылку на него
+
+nb: есть автоматичеси формированные якоря для заголовков,
+исходя из текста заголовка.
+
+явное задание якоря
+
+````markdown
+## <a id="anchortext" />Header text
+````
+
+ссылка на якорь
+
+````markdown2
+[text](filename.md#anchortext)
+````
