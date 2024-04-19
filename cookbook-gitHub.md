@@ -9,7 +9,7 @@ index.html и сопутствующих html/css/... файлов
 2. сделать репозиторий публичным - в открытом репозитории
 нажать setting (в верхнем меню, правее от "Insights")/
 General/Danger Zone/Change repository visibility
-3. Settings /слева в секкции "Code and automation" выбрать "Pages"
+3. Settings /слева в секции "Code and automation" выбрать "Pages"
     - пункт "Branch" - выбрать ветку
     - пункт "select folder" - выбрать "/docs"
     - нажать "Save"
@@ -24,7 +24,7 @@ Your site is live at https://drtenguussr.github.io/test4/
 ## публикация на username.github.com без имени репозитория
 
 чтобы сайт репозитория на pages.github.io был доступен
-без указаная имени репозитория через слеш, нужно, чтобы
+без указания имени репозитория через слеш, нужно, чтобы
 имя репозитория соответствовало <логин> + "github.io"
 пример - логин drTenguUSSR соотвественно нужно создать
 (переименовать) репозиторий в "drTenguUSSR.github.io"

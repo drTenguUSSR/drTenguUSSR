@@ -177,6 +177,6 @@ nb: есть автоматичеси формированные якоря дл
 
 ссылка на якорь
 
-````markdown2
+````markdown
 [text](filename.md#anchortext)
 ````

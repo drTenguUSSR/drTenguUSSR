@@ -1,16 +1,22 @@
 # drTenguUSSR main
 
+[drTenguUSSR's github homepage https://github.com/drTenguUSSR](https://github.com/drTenguUSSR)
+
 ![avatar](images/tengu-port.png)
 
 ## проект TengedSedsvcEmu
 
 TengedSedsvcEmu пет-проект реализующий интерфейс СЭДсервиса
 
-[СЭД-сервис в рамках CMJ](https://sup.inttrust.ru:8446/prjdocs/master/specs/sedsvc/index.html)
+[описание СЭД-сервиса в рамках CMJ](https://sup.inttrust.ru:8446/prjdocs/master/specs/sedsvc/index.html)
 
-[СЭДсервис как отдельный компонент](https://sup.inttrust.ru:8446/prjdocs/sedsvc/master/specs/sedsvc/index.html)
+[описание СЭДсервиса как отдельный компонент](https://sup.inttrust.ru:8446/prjdocs/sedsvc/master/specs/sedsvc/index.html)
 
-[подробности ../../../TengedSedsvcEmu](../../../TengedSedsvcEmu)
+## реализация
+
+[пример front-end реализации ../../../TengedSedsvcEmu/staticA/index.html](../../../TengedSedsvcEmu/staticA/index.html)
+
+[код эмулятора backend ../../../TengedSedsvcEmu/tree/main/serverA](../../../TengedSedsvcEmu/tree/main/serverA)
 
 ## сопутствующие проекты (отладочные)
 
