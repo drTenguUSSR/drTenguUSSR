@@ -14,9 +14,9 @@ TengedSedsvcEmu пет-проект реализующий интерфейс С
 
 ## реализация
 
-[пример front-end реализации ../../../TengedSedsvcEmu/staticA/index.html](../../../TengedSedsvcEmu/staticA/index.html)
+[пример front-end реализации](https://drtenguussr.github.io/TengedSedsvcEmu/staticA/index.html)
 
-[код эмулятора backend ../../../TengedSedsvcEmu/tree/main/serverA](../../../TengedSedsvcEmu/tree/main/serverA)
+[код эмулятора backend. serverA](https://github.com/drTenguUSSR/TengedSedsvcEmu/tree/main/serverA)
 
 ## сопутствующие проекты (отладочные)
 
